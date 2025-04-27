@@ -112,7 +112,18 @@ const App = () => {
           <p style={{ textAlign: 'center', color: 'gray' }}>No tasks yet. Add one!</p>
         )}
       </div>
-      
+      {/* Footer */}
+      <footer style={{ textAlign: 'center', padding: '20px 0', marginTop: '20px', borderTop: '1px solid #ccc' }}>
+        <p>Developed by <strong>Govind Chaudhary</strong></p>
+        <p>Email: <a href="mailto:gs9012406068@gmail.com">gs9012406068@gmail.com</a></p>
+        <p>
+          
+          <a href="https://www.linkedin.com/in/govind-chaudhary-057770189/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+          </a>
+          <p><i>Login system and authentication will be developed soon!</i></p>
+        </p>
+      </footer>
     </div>
   );
 };
